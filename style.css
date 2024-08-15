@@ -1,0 +1,67 @@
+
+header h1 {
+    font-family: cursive;
+    font-size: 30px;
+    color: lightblue;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.letters {
+    padding: 5px;
+    border-radius: 5px;
+    width: 600px
+    font-size: 15px;
+}
+
+form {
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+label, input {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.box, .bttn {
+    padding-left: 10px;
+}
+
+.bttn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+.container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+input[type="text"] {
+    width: 450px;
+}
+
+textarea {
+    width: 450px;
+    height: 200px;
+}
